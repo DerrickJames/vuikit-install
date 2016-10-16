@@ -19,7 +19,7 @@
 <style>
 body {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                helvetica, 'helvetica neue',
@@ -29,6 +29,7 @@ body {
 }
 .page {
   text-align: center;
+  font-size: 2rem;
 }
 code {
   background-color: #f0f0f0;
