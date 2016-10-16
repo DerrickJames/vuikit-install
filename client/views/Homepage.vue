@@ -1,15 +1,15 @@
 <template>
-  <div class="page">
-    bla
+  <div class="page"> <!-- css class called "page" -->
+    Homepage stuff
   </div>
 </template>
 
 <script>
-import Counter from '../components/Counter'
+import App from '../components/App'
 
 export default {
   components: {
-    Counter
+    App,
   }
 }
 </script>

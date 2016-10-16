@@ -1,8 +1,20 @@
 <template>
   <div id="app">
+    <ul> <!-- (1) Select the route -->
+      <li><router-link to="/">Homepage</router-link></li>
+
+      <li><router-link to="/builtin-default-homepage">Default Homepage</router-link></li>
+
+    </ul>
+    <hr>
+    <!-- (2) DISPLAYS the page that the route selected -->
     <router-view></router-view>
   </div>
 </template>
+
+<script>
+
+</script>
 
 <style>
 body {
