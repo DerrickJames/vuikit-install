@@ -3,6 +3,9 @@ import {sync} from 'vuex-router-sync'
 import App from './components/App'
 import router from './router'
 import store from './store'
+
+import Vuikit from 'vuikit'
+
 sync(store, router)
 
 const app = new Vue({
@@ -10,5 +13,7 @@ const app = new Vue({
   store,
   ...App
 })
+
+Vue.use(Vuikit)
 
 export {app, router, store}
